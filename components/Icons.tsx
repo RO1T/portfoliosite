@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Icons = () => {
   return (
-<div className="flex mt-20 items-center justify-center">
+<div className="flex mt-48 items-center justify-center">
   <div className="w-full md:w-1/2 rounded-lg bg-white px-8 py-4 shadow-md m-4">
 
     <div className="px-1 py-4">
@@ -16,7 +16,7 @@ const Icons = () => {
         alt="css logo"
         width={45}
         height={45}
-        className=""
+        className="hover:shadow-xl rounded-2xl"
       ></Image>
       </li>
       <li className="flex items-center flex-col">
@@ -25,6 +25,7 @@ const Icons = () => {
         alt="fastapi logo"
         width={60}
         height={60}
+        className="hover:shadow-xl rounded-full"
       ></Image>
       </li>
       <li className="flex items-center flex-col">
@@ -33,6 +34,7 @@ const Icons = () => {
         alt="github logo"
         width={60}
         height={60}
+        className="hover:shadow-xl rounded-full"
       ></Image>
       </li>
       <li className="flex items-center flex-col">
@@ -41,6 +43,7 @@ const Icons = () => {
         alt="html logo"
         width={60}
         height={60}
+        className="hover:shadow-xl rounded-2xl"
       ></Image>
       </li>
       <li className="flex items-center flex-col">
@@ -49,6 +52,7 @@ const Icons = () => {
         alt="react logo"
         width={60}
         height={60}
+        className="hover:shadow-xl rounded-full"
       ></Image>
       </li>
       <li className="flex items-center flex-col py-3">
@@ -57,6 +61,7 @@ const Icons = () => {
         alt="tailwind logo"
         width={60}
         height={60}
+        className="hover:shadow-xl rounded-full"
       ></Image>
       </li>
       <li className="flex items-center flex-col">
@@ -65,6 +70,7 @@ const Icons = () => {
         alt="ts logo"
         width={60}
         height={60}
+        className="hover:shadow-xl"
       ></Image>
       </li>
       <li className="flex items-center flex-col">
@@ -73,6 +79,7 @@ const Icons = () => {
         alt="js logo"
         width={60}
         height={60}
+        className="hover:shadow-xl"
       ></Image>
       </li>
       <li className="flex items-center flex-col py-2">
@@ -81,14 +88,16 @@ const Icons = () => {
         alt="php logo"
         width={80}
         height={80}
+        className="hover:shadow-xl rounded-2xl"
       ></Image>
       </li>
       <li className="flex items-center flex-col">
         <Image
-        src="/images/logos/python.svg"
+        src="/images/logos/Python-logo-notext.svg"
         alt="python logo"
         width={60}
         height={60}
+        className="hover:shadow-xl rounded-3xl"
       ></Image>
       </li>
     </ul>
